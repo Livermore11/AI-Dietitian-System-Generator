@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.image.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.shape.*?>
+<?import javafx.scene.text.*?>
+
+<HBox maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="600.0" prefWidth="800.0" xmlns="http://javafx.com/javafx/17.0.2-ea" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.javaaidietician.SignUpController">
+   <children>
+      <AnchorPane prefHeight="600.0" prefWidth="532.0" style="-fx-background-color: #06162e;">
+         <children>
+            <ImageView fitHeight="177.0" fitWidth="177.0" layoutX="84.0" layoutY="147.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@AI.png" />
+               </image>
+            </ImageView>
+            <Label layoutX="68.0" layoutY="379.0" style="-fx-text-fill: #FFFFFF;" text="AI DIETITIAN SYSTEM">
+               <font>
+                  <Font name="Arial Rounded MT Bold" size="18.0" />
+               </font>
+            </Label>
+         </children>
+      </AnchorPane>
+      <AnchorPane prefHeight="600.0" prefWidth="572.0" style="-fx-background-color: #3573fa;">
+         <children>
+            <TextField fx:id="txt_username" layoutX="151.0" layoutY="243.0">
+               <font>
+                  <Font name="Arial Rounded MT Bold" size="18.0" />
+               </font></TextField>
+            <Label layoutX="25.0" layoutY="249.0" style="-fx-text-fill: #FFFFFF;" text="Username">
+               <font>
+                  <Font name="Arial Rounded MT Bold" size="18.0" />
+               </font></Label>
+            <Label layoutX="25.0" layoutY="314.0" style="-fx-text-fill: #FFFFFF;" text="Password">
+               <font>
+                  <Font name="Arial Rounded MT Bold" size="18.0" />
+               </font></Label>
+            <TextField fx:id="txt_password" layoutX="151.0" layoutY="308.0">
+               <font>
+                  <Font name="Arial Rounded MT Bold" size="18.0" />
+               </font>
+            </TextField>
+            <Button fx:id="button_sign_up" layoutX="151.0" layoutY="449.0" mnemonicParsing="false" prefHeight="30.0" prefWidth="151.0" style="-fx-cursor: hand; -fx-background-color: #06162e; -fx-text-fill: #FFFFFF;" text="SignUp">
+               <font>
+                  <Font name="Arial Rounded MT Bold" size="16.0" />
+               </font>
+            </Button>
+            <Label layoutX="116.0" layoutY="495.0" style="-fx-text-fill: #FFFFFF;" text="Already a member?">
+               <font>
+                  <Font size="14.0" />
+               </font></Label>
+            <Button fx:id="button_login" layoutX="244.0" layoutY="490.0" mnemonicParsing="false" style="-fx-background-color: transparent; -fx-cursor: hand;" text="Log in" textFill="#222ee0" underline="true">
+               <font>
+                  <Font size="14.0" />
+               </font></Button>
+            <Label layoutX="179.0" layoutY="145.0" style="-fx-text-fill: #FFFFFF;" text="Sign Up">
+               <font>
+                  <Font name="Wide Latin" size="18.0" />
+               </font></Label>
+            <Label layoutX="25.0" layoutY="380.0" style="-fx-text-fill: #FFFFFF;" text="Email">
+               <font>
+                  <Font name="Arial Rounded MT Bold" size="18.0" />
+               </font>
+            </Label>
+            <TextField fx:id="txt_password1" layoutX="151.0" layoutY="374.0">
+               <font>
+                  <Font name="Arial Rounded MT Bold" size="18.0" />
+               </font>
+            </TextField>
+            <Line endX="100.0" layoutX="227.0" layoutY="431.0" startX="-100.0" />
+         </children></AnchorPane>
+   </children>
+</HBox>

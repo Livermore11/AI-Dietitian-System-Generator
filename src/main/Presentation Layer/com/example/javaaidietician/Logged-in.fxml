@@ -1,0 +1,169 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.paint.*?>
+<?import javafx.scene.text.*?>
+
+<HBox maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="600.0" prefWidth="871.0" xmlns="http://javafx.com/javafx/17.0.2-ea" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.javaaidietician.AIDietitianController">
+   <children>
+      <AnchorPane prefHeight="600.0" prefWidth="413.0" style="-fx-background-color: #FFFFFF;">
+         <children>
+            <Label fx:id="label_welcome1" layoutX="34.0" layoutY="119.0" text="Name">
+               <font>
+                  <Font name="Berlin Sans FB" size="14.0" />
+               </font></Label>
+            <Label fx:id="label_welcome11" layoutX="38.0" layoutY="161.0" text="Age">
+               <font>
+                  <Font name="Berlin Sans FB" size="14.0" />
+               </font></Label>
+            <Label fx:id="label_welcome111" layoutX="34.0" layoutY="203.0" text="Gender">
+               <font>
+                  <Font name="Berlin Sans FB" size="14.0" />
+               </font></Label>
+            <RadioButton fx:id="rb_male" layoutX="111.0" layoutY="207.0" mnemonicParsing="false" prefHeight="19.0" prefWidth="72.0" text="Male">
+               <font>
+                  <Font name="Berlin Sans FB" size="14.0" />
+               </font></RadioButton>
+            <TextField fx:id="txt_name" layoutX="111.0" layoutY="119.0">
+               <font>
+                  <Font name="Berlin Sans FB" size="14.0" />
+               </font></TextField>
+            <TextField fx:id="txt_age" layoutX="111.0" layoutY="161.0" prefHeight="25.0" prefWidth="52.0">
+               <font>
+                  <Font name="Berlin Sans FB" size="14.0" />
+               </font></TextField>
+            <Label fx:id="label_welcome12" layoutX="32.0" layoutY="268.0" text="Weight">
+               <font>
+                  <Font name="Berlin Sans FB" size="14.0" />
+               </font></Label>
+            <TextField fx:id="txt_weight" layoutX="114.0" layoutY="268.0" prefHeight="25.0" prefWidth="59.0">
+               <font>
+                  <Font name="Berlin Sans FB" size="14.0" />
+               </font></TextField>
+            <Label fx:id="label_welcome121" layoutX="34.0" layoutY="311.0" text="Height">
+               <font>
+                  <Font name="Berlin Sans FB" size="14.0" />
+               </font></Label>
+            <TextField fx:id="txt_height" layoutX="114.0" layoutY="314.0" prefHeight="25.0" prefWidth="59.0">
+               <font>
+                  <Font name="Berlin Sans FB" size="14.0" />
+               </font></TextField>
+            <Label fx:id="label_welcome1111" layoutX="31.0" layoutY="365.0" text="Exercise LVL">
+               <font>
+                  <Font name="Berlin Sans FB" size="14.0" />
+               </font></Label>
+            <RadioButton fx:id="rb_no_exercise" layoutX="109.0" layoutY="361.0" mnemonicParsing="false" prefHeight="17.0" prefWidth="143.0" text="Light or No exercise">
+               <font>
+                  <Font name="Berlin Sans FB" size="14.0" />
+               </font></RadioButton>
+            <RadioButton fx:id="rb_moderate" layoutX="108.0" layoutY="414.0" mnemonicParsing="false" prefHeight="19.0" prefWidth="259.0" text="Moderate exercise (3–5 days per week)">
+               <font>
+                  <Font name="Berlin Sans FB" size="14.0" />
+               </font></RadioButton>
+            <RadioButton fx:id="rb_female" layoutX="111.0" layoutY="236.0" mnemonicParsing="false" prefHeight="19.0" prefWidth="79.0" text="Female">
+               <font>
+                  <Font name="Berlin Sans FB" size="14.0" />
+               </font></RadioButton>
+            <RadioButton fx:id="rb_active" layoutX="108.0" layoutY="439.0" mnemonicParsing="false" prefHeight="19.0" prefWidth="301.0" text="Active exercise (twice per day,heavy workouts)">
+               <font>
+                  <Font name="Berlin Sans FB" size="14.0" />
+               </font></RadioButton>
+            <RadioButton fx:id="rb_light" layoutX="109.0" layoutY="388.0" mnemonicParsing="false" prefHeight="19.0" prefWidth="227.0" text="Light exercise (1–3 days per week)">
+               <font>
+                  <Font name="Berlin Sans FB" size="14.0" />
+               </font></RadioButton>
+            <Button fx:id="button_recommend" layoutX="131.0" layoutY="556.0" mnemonicParsing="false" style="-fx-cursor: hand; -fx-text-fill: #FFFFFF; -fx-background-color: #3573fa;" text="Recommend Diet">
+               <opaqueInsets>
+                  <Insets />
+               </opaqueInsets>
+               <font>
+                  <Font size="14.0" />
+               </font></Button>
+            <Label fx:id="label_welcome2" layoutX="175.0" layoutY="272.0" text="kg">
+               <font>
+                  <Font name="Berlin Sans FB" size="14.0" />
+               </font></Label>
+            <Label fx:id="label_welcome21" layoutX="175.0" layoutY="315.0" text="cm">
+               <font>
+                  <Font name="Berlin Sans FB" size="14.0" />
+               </font></Label>
+            <RadioButton fx:id="rb_heavy" layoutX="108.0" layoutY="463.0" mnemonicParsing="false" prefHeight="17.0" prefWidth="271.0" text="Very Heavy exercise (6-7 days per week)">
+               <font>
+                  <Font name="Berlin Sans FB" size="14.0" />
+               </font></RadioButton>
+            <Label fx:id="label_welcome" layoutX="270.0" layoutY="47.0" text="Welcome">
+               <font>
+                  <Font name="MV Boli" size="22.0" />
+               </font></Label>
+            <Button fx:id="button_alternate" layoutX="214.0" layoutY="507.0" mnemonicParsing="false" style="-fx-cursor: hand; -fx-text-fill: #FFFFFF; -fx-background-color: #3573fa;" text="Alternative Diet" visible="false">
+               <opaqueInsets>
+                  <Insets />
+               </opaqueInsets>
+               <font>
+                  <Font name="Berlin Sans FB" size="14.0" />
+               </font>
+            </Button>
+            <Label fx:id="label_alternative" layoutX="120.0" layoutY="523.0" text="Click for alternative" visible="false">
+               <font>
+                  <Font name="Berlin Sans FB" size="18.0" />
+               </font>
+            </Label>
+         </children>
+      </AnchorPane>
+      <AnchorPane prefHeight="600.0" prefWidth="457.0" style="-fx-background-color: #FFFFFF;">
+         <children>
+            <Button fx:id="button_logout" layoutX="374.0" layoutY="556.0" mnemonicParsing="false" style="-fx-cursor: hand; -fx-text-fill: #FFFFFF; -fx-background-color: #3573fa;" text="Log Out">
+               <font>
+                  <Font size="14.0" />
+               </font></Button>
+            <Label fx:id="label_BMR" layoutX="14.0" layoutY="122.0">
+               <font>
+                  <Font name="Britannic Bold" size="16.0" />
+               </font></Label>
+            <Label fx:id="label_result" layoutX="16.0" layoutY="156.0">
+               <font>
+                  <Font name="Britannic Bold" size="16.0" />
+               </font></Label>
+            <Label fx:id="label_breakfast" layoutX="21.0" layoutY="272.0">
+               <font>
+                  <Font name="Britannic Bold" size="12.0" />
+               </font></Label>
+            <Label fx:id="label_lunch" layoutX="24.0" layoutY="307.0">
+               <font>
+                  <Font name="Britannic Bold" size="12.0" />
+               </font></Label>
+            <Label fx:id="label_dinner" layoutX="24.0" layoutY="348.0">
+               <font>
+                  <Font name="Britannic Bold" size="12.0" />
+               </font></Label>
+            <Label fx:id="label_snack" layoutX="22.0" layoutY="388.0">
+               <font>
+                  <Font name="Britannic Bold" size="12.0" />
+               </font></Label>
+            <Label fx:id="label_recommend" layoutX="72.0" layoutY="211.0">
+               <font>
+                  <Font name="System Bold" size="18.0" />
+               </font>
+               <textFill>
+                  <RadialGradient centerX="0.5" centerY="0.5" radius="0.5">
+                     <stops>
+                        <Stop>
+                           <color>
+                              <Color red="0.10745614022016525" green="0.32390350103378296" blue="0.8289473652839661" />
+                           </color>
+                        </Stop>
+                        <Stop offset="1.0">
+                           <color>
+                              <Color red="0.5069444179534912" green="0.5960648059844971" blue="0.75" />
+                           </color>
+                        </Stop>
+                     </stops>
+                  </RadialGradient>
+               </textFill>
+            </Label>
+         </children>
+      </AnchorPane>
+   </children>
+</HBox>
